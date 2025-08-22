@@ -62,28 +62,7 @@ Este repositório pode crescer com:
 
 ---
 
-# 📘 Exercícios (modelo de organização)
+✍️ **Autor:** Richardt Justke  
+🎓 **Disciplina:** Técnicas de Desenvolvimento de Algoritmo  
+📅 **Ano:** 2025  
 
-Dentro da pasta **`exercicios/`**, cada lista de exercícios terá sua própria pasta com um mini README explicando o conteúdo.  
-
-## 📑 Exemplo de README para uma lista
-```markdown
-# Lista 01 - Introdução aos Algoritmos
-
-## 📚 Conteúdo
-Esta lista aborda:
-- Conceito de algoritmos
-- Representação em pseudocódigo
-- Estruturas sequenciais
-
-## 📝 Exercícios Resolvidos
-1. [x] Algoritmo para calcular a média de 3 números  
-2. [x] Conversão de temperatura (Celsius ↔ Fahrenheit)  
-3. [x] Cálculo de área de um triângulo  
-4. [ ] Exercício extra de lógica (em andamento)  
-
-## ▶️ Como Executar
-- **VisualG/Portugol:** Abra o arquivo `.alg` no programa.  
-- **Python:** Execute com o comando  
-  ```bash
-  python nome_do_arquivo.py
