@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tabuada"/>
+        <attribute name="authors" value="rjjus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 08:47:15 "/>
+        <attribute name="created" value="cmpqdXM7SlVTVEtFLU5PVEU7MjAyNS0wOS0wNTsiMDg6NDI6MDcgIjsyNTgy"/>
+        <attribute name="edited" value="cmpqdXM7SlVTVEtFLU5PVEU7MjAyNS0wOS0wNTsiMDg6NDc6MTUgIjsxOzI2OTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, num, caculo" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um n&#250;mero da tatubuada:&quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="0" end="10" direction="inc" step="1">
+                <assign variable="calculo" expression="num*i"/>
+                <output expression="&quot;n&#250;mero&quot; &amp;calculo" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

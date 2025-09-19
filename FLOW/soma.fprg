@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exer1"/>
+        <attribute name="authors" value="Ronaldy Aguiar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 08:17:53 "/>
+        <attribute name="created" value="Um9uYWxkeSBBZ3VpYXI7REVTS1RPUC1KTFZPT0owOzIwMjUtMDktMDU7IjA4OjA0OjE5ICI7MzY2MQ=="/>
+        <attribute name="edited" value="Um9uYWxkeSBBZ3VpYXI7REVTS1RPUC1KTFZPT0owOzIwMjUtMDktMDU7IjA4OjE3OjUzICI7MTszNzcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUM1, NUM2, SOMA" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite o primeiro numero&quot;" newline="True"/>
+            <input variable="NUM1"/>
+            <output expression="&quot;DIGITE SEGUNDO NUMERIO&quot;" newline="True"/>
+            <input variable="NUM2"/>
+            <assign variable="soma" expression="(num1+num2)"/>
+            <output expression="&quot;a soma &#233;:&quot; &amp;soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

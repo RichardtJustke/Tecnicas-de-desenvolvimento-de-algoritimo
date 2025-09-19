@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soma"/>
+        <attribute name="authors" value="rjjus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 08:27:18 "/>
+        <attribute name="created" value="cmpqdXM7SlVTVEtFLU5PVEU7MjAyNS0wOS0wNTsiMDg6MDA6MDIgIjsyNTcx"/>
+        <attribute name="edited" value="cmpqdXM7SlVTVEtFLU5PVEU7MjAyNS0wOS0wNTsiMDg6Mjc6MTggIjszOzI2OTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <output expression="&quot;escreva o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <if expression="num1%2==0">
+                <then>
+                    <output expression="&quot;o n&#250;mero e par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;n&#250;mero e impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
